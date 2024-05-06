@@ -1,0 +1,74 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+.container {
+    margin-top: 30px;
+}
+
+/* Estilos para el header */
+header {
+    margin-bottom: 20px;
+}
+
+.navbar {
+    border-radius: 0;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+    font-weight: bold;
+}
+
+/* Estilos para el footer */
+footer {
+    position: center;
+    bottom: 0;
+    width: 100%;
+    background-color: #343a40;
+    color: #fff;
+    padding: 10% 0;
+    height: 5%;
+}
+
+/* Estilos para la sección de inicio */
+.section-inicio {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.section-inicio img {
+    max-width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para la sección de certificados */
+.card {
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+/* Estilos para la sección de contacto */
+.section-contacto {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-control {
+    margin-bottom: 10px;
+}
